@@ -8,3 +8,23 @@ Completed in 3ms (View: 0, DB: 0) | 200 OK [http://test.host/pages/contact]
 Processing PagesController#home (for 0.0.0.0 at 2010-06-27 15:13:35) [GET]
 Rendering pages/home
 Completed in 1ms (View: 0, DB: 0) | 200 OK [http://test.host/pages/home]
+
+
+Processing PagesController#contact (for 0.0.0.0 at 2010-06-27 17:22:31) [GET]
+Rendering pages/contact
+Completed in 2ms (View: 0, DB: 0) | 200 OK [http://test.host/pages/contact]
+
+
+Processing PagesController#home (for 0.0.0.0 at 2010-06-27 17:22:31) [GET]
+Rendering pages/home
+Completed in 1ms (View: 0, DB: 0) | 200 OK [http://test.host/pages/home]
+
+
+Processing PagesController#contact (for 0.0.0.0 at 2010-06-28 17:08:35) [GET]
+Rendering pages/contact
+Completed in 4ms (View: 1, DB: 0) | 200 OK [http://test.host/pages/contact]
+
+
+Processing PagesController#home (for 0.0.0.0 at 2010-06-28 17:08:35) [GET]
+Rendering pages/home
+Completed in 1ms (View: 0, DB: 0) | 200 OK [http://test.host/pages/home]
