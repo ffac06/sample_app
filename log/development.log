@@ -19,3 +19,54 @@
  FROM sqlite_master
  WHERE type = 'table' AND NOT name = 'sqlite_sequence'
 [0m
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-06-28 18:17:05) [GET]
+
+ActionController::RoutingError (No route matches "/microposts" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-06-28 18:18:10) [GET]
+
+ActionController::RoutingError (No route matches "/microposts" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-06-28 18:18:13) [GET]
+
+ActionController::RoutingError (No route matches "/micropost" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-06-28 18:18:16) [GET]
+
+ActionController::RoutingError (No route matches "/microposts" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing PagesController#index (for 127.0.0.1 at 2010-06-28 18:18:24) [GET]
+
+ActionController::UnknownAction (No action responded to index. Actions: about, contact, and home):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing PagesController#home (for 127.0.0.1 at 2010-06-28 18:18:27) [GET]
+Rendering pages/home
+Completed in 7ms (View: 6, DB: 0) | 200 OK [http://localhost/pages/home]
+
+
+Processing PagesController#home (for 127.0.0.1 at 2010-06-29 00:25:14) [GET]
+Rendering template within layouts/application
+Rendering pages/home
+Completed in 13ms (View: 12, DB: 0) | 200 OK [http://localhost/pages/home]
